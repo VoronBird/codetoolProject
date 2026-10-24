@@ -1,4 +1,5 @@
-# Task Manager — Учебный проект
+# Развёртывание и запуск проекта <CodeTool>
+
 
 ## Установка и запуск бэкенда
 
@@ -6,8 +7,6 @@
 
 2. Активировать venv:
   Windows (Git Bash): source venv/Scripts/activate
-
-Windows (CMD): venv\Scripts\activate
 
 3. Установить зависимости:
   pip install -r requirements.txt
