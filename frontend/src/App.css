@@ -1,0 +1,175 @@
+
+
+
+
+
+.containerContainer {
+  display: flex;   
+  white-space: pre-wrap;
+}
+
+.deepcontainer,
+.secondcontainer {
+  flex: 1;            /* ← каждый занимает равную долю */
+}
+
+.buttonContainer{
+  display: flex;
+  justify-self: left;
+}
+
+ 
+
+html, body, #root {
+  display:flex;
+  flex-direction: column;
+  justify-content:start;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh; /* Растягивает фон на всю высоту экрана */
+  background-color: #373636; /* Замените на нужный вам цвет */
+}
+
+
+.containerForm {
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding:5%;
+  flex-basis: 10%;
+  background-color: #555454;
+  border: 5px, solid, #1a1a1a;
+  border-radius: 5px;
+  
+}
+
+h1{
+  color: rgb(204, 201, 191);
+}
+
+h2{
+  color: rgb(179, 174, 158);
+}
+
+
+.rgstrbtn {
+  /* Размеры и шрифты */
+  padding: 14px 28px;
+  height: 20%;
+  width: 30%;
+  font-weight: 600;
+  color: #ffffff;
+  
+  /* Форма и фон */
+  background:#373636;
+  border: none;
+  border-radius: 8px;
+  
+  /* Эффекты */
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+input[type="text"] {
+  display: inline-block;
+  width: 30%;
+  background: #373636;     
+  height: 40px;  
+  border:groove black;   
+  border-radius: 8px;        
+  outline: none; 
+  color:#ffffff;
+}
+
+
+textarea {
+  display: inline-block;
+  width: 30%;
+  background: #373636;     
+  height: 40px;  
+  border:groove black;   
+  border-radius: 8px;        
+  outline: none; 
+  color:#ffffff;
+}
+
+.containerContainer{
+  background-color: #555454;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 16px;
+  border:#1a1a1a, solid;
+  border-radius: 8px;
+  margin:10px;
+}
+
+strong{
+  color: rgb(204, 201, 191);
+}
+
+p{
+  color: white;
+}
+
+.guide-card{
+  margin:5px;
+  border:#1a1a1a, solid;
+  border-radius: 5px;
+  background-color: #373636;
+}
+
+.cut-card{
+  white-space: pre-wrap;
+  margin:5px;
+  border:#1a1a1a, solid;
+  border-radius: 5px;
+  background-color: #373636;
+}
+
+h5{
+  color: rgb(204, 201, 191);
+}
+
+
+
+.uppContainer{
+  white-space: pre-wrap;
+  background-color: #555454;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 16px;
+  border:#1a1a1a, solid;
+  border-radius: 8px;
+  margin:10px;
+}
+
+.user{
+  display:flex;
+  justify-content: right;
+}
+
+.deepСontainer{
+  display:flex;
+  justify-content: end;
+}
+
+.respContainer{
+  max-height: 340px;
+  overflow-y: auto;
+  border: solid, #1a1a1a;
+  border-radius: 5px;
+  background-color:#373636;
+}
+
+.guides-list{
+  max-height: 386px;
+  overflow-y: auto;
+  border: solid, #1a1a1a;
+  border-radius: 5px;
+  background-color:#373636;
+}
+
+.ccDiscr{
+  white-space: pre-wrap;
+}
